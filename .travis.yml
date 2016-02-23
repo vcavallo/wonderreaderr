@@ -3,7 +3,7 @@ rvm:
   - 2.3.0
 branches:
   only:
-    - /^(?i:rc)-.*$/
+    - /^release-[\d.]*$/
     - release-candidate
     - master
 services:
