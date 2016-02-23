@@ -21,5 +21,10 @@ RSpec.describe Assignment, type: :model do
     it "has a level" do
       expect(@assignment).to respond_to(:level)
     end
+
+    it "has a LEVELS constant" do
+      expect(Assignment::LEVELS).to be_present
+      expect(Assignment::LEVELS).to include('required')
+    end
   end
 end

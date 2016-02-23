@@ -1,0 +1,16 @@
+<h1>New Assignment</h1>
+
+<div class="new-assignment">
+  <%= form_for @assignment do |f| %>
+    <%= f.label :link %>
+    <%= f.text_field :link %>
+
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+
+    <%= f.label :level %>
+    <%= f.select :level, options_for_select(Assignment::LEVELS.map(&:titleize)) %>
+
+    <%= f.submit %>
+  <% end %>
+</div>
