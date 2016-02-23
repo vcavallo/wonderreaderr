@@ -47,7 +47,11 @@
 
 ## product milestones
 
+_this section uses taskpaper syntax_
+
 ### features
+
+To Be Done:
 
 - articles can be added
 - users
@@ -59,4 +63,5 @@
 - tagging
 - comments
 
+Archive:
 
