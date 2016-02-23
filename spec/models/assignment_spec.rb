@@ -27,4 +27,6 @@ RSpec.describe Assignment, type: :model do
       expect(Assignment::LEVELS).to include('required')
     end
   end
+
+  pending 'validations'
 end
