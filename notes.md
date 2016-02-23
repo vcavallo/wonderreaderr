@@ -53,6 +53,7 @@ _this section uses taskpaper syntax_
 
 To Be Done:
 
+- fix link in assignment show
 - users
 - user roles
 - github auth
