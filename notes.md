@@ -53,7 +53,6 @@ _this section uses taskpaper syntax_
 
 To Be Done:
 
-- articles can be added
 - users
 - user roles
 - github auth
@@ -64,4 +63,5 @@ To Be Done:
 - comments
 
 Archive:
+- articles can be added @done
 
