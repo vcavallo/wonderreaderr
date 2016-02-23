@@ -40,6 +40,8 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'pry'
   gem 'capybara'
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'database_cleaner'
 end
 
 group :development do
