@@ -1,0 +1,9 @@
+<h1>Assignments List</h1>
+
+<div class="assignment-list">
+  <ul>
+    <% @assignments.each do |a| %>
+      <li><%= link_to a.title, a %></li>
+    <% end %>
+  </ul>
+</div>

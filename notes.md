@@ -47,9 +47,12 @@
 
 ## product milestones
 
+_this section uses taskpaper syntax_
+
 ### features
 
-- articles can be added
+To Be Done:
+
 - users
 - user roles
 - github auth
@@ -59,4 +62,6 @@
 - tagging
 - comments
 
+Archive:
+- articles can be added @done
 
