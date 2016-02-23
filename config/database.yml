@@ -30,9 +30,14 @@ rc:
   database: wonderreaderr_rc
 
 test:
-  adapter: postgresql
-  database: travis_ci_test
-  username: postgres
+  <<: *default
+  database: wonderreaderr_test
+
+production:
+  <<: *default
+  database: wonderreaderr_production
+  username: wonderreaderr
+  password: <%= ENV['WONDERREADERR_DATABASE_PASSWORD'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -64,10 +69,6 @@ test:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-  <<: *default
-  database: wonderreaderr_test
-
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
@@ -86,9 +87,3 @@ test:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
-#
-production:
-  <<: *default
-  database: wonderreaderr_production
-  username: wonderreaderr
-  password: <%= ENV['WONDERREADERR_DATABASE_PASSWORD'] %>
