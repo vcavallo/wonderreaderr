@@ -6,3 +6,5 @@ branches:
     - /^(?i:rc)-.*$/
     - release-candidate
     - master
+services:
+    - postgresql
