@@ -1,4 +1,5 @@
 # Wonderreaderr
+[![Build Status](https://travis-ci.org/vcavallo/wonderreaderr.svg?branch=release-candidate)](https://travis-ci.org/vcavallo/wonderreaderr)
 
 A place to suggest, archive and participate in "required readings".
 
