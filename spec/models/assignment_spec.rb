@@ -28,5 +28,21 @@ RSpec.describe Assignment, type: :model do
     end
   end
 
-  pending 'validations'
+  describe 'validations' do
+    it "has a valid factory" do
+      expect(build(:assignment)).to be_valid
+    end
+
+    it "requires a link" do
+      expect(build(:assignment, link: "")).to be_invalid
+    end
+
+    it "requires a title" do
+      expect(build(:assignment, title: "")).to be_invalid
+    end
+
+    it "requires a level" do
+      expect(build(:assignment, level: "")).to be_invalid
+    end
+  end
 end

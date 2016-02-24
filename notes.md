@@ -53,7 +53,6 @@ _this section uses taskpaper syntax_
 
 To Be Done:
 
-- fix link in assignment show
 - users
 - user roles
 - github auth
@@ -64,5 +63,6 @@ To Be Done:
 - comments
 
 Archive:
+- fix link in assignment show @done
 - articles can be added @done
 
